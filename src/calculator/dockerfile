@@ -1,0 +1,4 @@
+FROM python 3.9
+WORKDIR /calculator1
+COPY . /calculator1
+CMD[ "pythone3.9","calculator1.py"]
